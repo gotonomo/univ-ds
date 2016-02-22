@@ -7,9 +7,13 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <meta name="description" content="">
     <meta name="author" content="">
-    
+    <style>
+		#myCarousel{
+			height:500px;
+		}
+	</style>
 
-    <title>网银</title>
+    <title>个人网银</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +26,7 @@
   </head>
 
   <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="navbar navbar-inverse navbar-static-top ">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -37,12 +41,12 @@
             <li class="active"><a class="navbar-brand" href="#">
 				<span class="glyphicon glyphicon glyphicon-yen" aria-hidden="true"></span>
 			</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">个人账户</a></li>
+            <li><a href="#contact">缴费支付</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">信用卡<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
+                <li><a href="#">信用卡</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li role="separator" class="divider"></li>
@@ -51,14 +55,15 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
-			<li>
-			<button type="submit" class="btn btn-success">Sign in</button>
-			</li>
+            <li><a href="#contact">个人贷款</a></li>
+            <li><a href="#contact">投资理财</a></li>
+            <li><a href="#contact">安全中心</a></li>
+			<li><button type="button" class="btn btn-success">退出</button>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-	<br><br>
+	
 	<!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -70,7 +75,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="img/01.jpg" alt="First slide">
+          <img class="first-slide" src="img/1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -80,7 +85,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="img/02.jpg" alt="Second slide">
+          <img class="second-slide" src="img/2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -90,7 +95,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="img/03.jpg" alt="Third slide">
+          <img class="third-slide" src="img/3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>
@@ -113,8 +118,12 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     
-	
     </div><!-- /.container -->
+	<div class="container">
+	<footer>
+        <p>&copy; Company 2014</p>
+    </footer>
+	</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

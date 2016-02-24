@@ -41,25 +41,76 @@
             <li class="active"><a class="navbar-brand" href="#">
 				<span class="glyphicon glyphicon glyphicon-yen" aria-hidden="true"></span>
 			</a></li>
-            <li><a href="#about">个人账户</a></li>
-            <li><a href="#contact">缴费支付</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">个人账户<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">我的网银</a></li>
+                <li><a href="#">追加新账户</a></li>
+                <li class="dropdown-header">个人现金管理</li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">网点业务预约</a></li>
+                <li class="dropdown-header">VIP对账单</li>
+                <li><a href="#">个性化设置</a></li>
+                <li><a href="#">账户其他服务</a></li>
+              </ul>
+			</li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">转账汇款<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">活期转账汇款</a></li>
+                <li><a href="#">AA收款</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">向企业转账</li>
+                <li><a href="#">定活互转</a></li>
+                <li><a href="#">大额存单</a></li>
+                <li><a href="#">跨行转账</a></li>
+                <li><a href="#">预约转账</a></li>
+                <li><a href="#">批量转账</a></li>
+                <li><a href="#">境外外汇汇款</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">缴费支付<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">单笔缴费</a></li>
+                <li><a href="#">批量缴费</a></li>
+                <li><a href="#">预约缴费</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">缴费支付记录查询</a></li>
+                <li><a href="#">银行卡网上小额支付</a></li>
+              </ul>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">信用卡<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">信用卡</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="#">信用卡申请</a></li>
+                <li><a href="#">信用卡激活</a></li>
+                <li><a href="#">信用卡查询</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#">信用卡还款</a></li>
+                <li><a href="#">信用卡管理</a></li>
+                <li><a href="#">信用卡额度调整</a></li>
+                <li><a href="#">信用卡分期</a></li>
               </ul>
             </li>
-            <li><a href="#contact">个人贷款</a></li>
-            <li><a href="#contact">投资理财</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">投资理财<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">理财产品</a></li>
+                <li><a href="#">基金业务</a></li>
+                <li><a href="#">外汇买卖</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">贵金属</a></li>
+                <li><a href="#">债券</a></li>
+                <li><a href="#">保险</a></li>
+              </ul>
+            </li>
             <li><a href="#contact">安全中心</a></li>
-			<li><button type="button" class="btn btn-success">退出</button>
           </ul>
+			<button type="button" class="btn btn-success navbar-right">退出</button>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -121,7 +172,7 @@
     </div><!-- /.container -->
 	<div class="container">
 	<footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Company 2016</p>
     </footer>
 	</div>
     <!-- Bootstrap core JavaScript

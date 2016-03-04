@@ -7,23 +7,26 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <style>
-		#myCarousel{
-			height:500px;
-		}
-		a{color:#000;}
-		a:hover{color:#red;}
-		.page-header{color:#FFF;
-		background-color:#555;}
-		#k1,#k3{background-color:#EEE;}
-		#yh,#lc,#yw{color:#555;}
-	</style>
+    
 
     <title>网银</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+	<style>
+		#myCarousel{
+			max-height:400px;
+			min-height:400px;
+			overflow:hidden;
+		}
+		img{width:100%;}
+		a{color:#000;}
+		a:hover{color:gray;}
+		.page-header{color:#DDD;
+		background-color:#556;}
+		#k1,#k3{background-color:#EEE;}
+		#yh,#lc,#yw{color:#555;}
+	</style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -46,13 +49,19 @@
 		  </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-			  <div class="form-group col-md-5">
-				<input type="text" class="form-control" id="exampleInputName2" placeholder="搜索">
-			  </div>
-			  <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-            <button type="submit" class="btn btn-info">企业版</button>
-			<a class="btn btn-success" href="login.html" role="button">个人网银登录</a>
-			<div id="sign-false"></div>
+			<form class="navbar-form navbar-right">
+				<div class="input-group">
+				  <input type="text" class="form-control" placeholder="搜索...">
+				  <span class="input-group-btn">
+					<button class="btn btn-default" type="button">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				  </span>
+				</div><!-- /input-group -->
+				<button type="submit" class="btn btn-info">企业版</button>
+				<a class="btn btn-success" href="login.html" role="button">个人网银登录</a>
+				<div id="sign-false"></div>
+			</form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -119,19 +128,19 @@
 			<h1 id="yh" align="center">最新优惠</h1>
 			<div class="row">
 				<div class="col-md-4">
-				  <h2>Heading</h2>
-				  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-				  <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+				  <h2>闪付卡某商场优惠活动</h2>
+				  <p>卡号以62开头的银联云闪付卡可在某商场全国所有门店（某地某店除外）闪付消费</p>
+				  <p><a class="btn btn-success" href="#" role="button">点击了解 &raquo;</a></p>
 				</div>
 				<div class="col-md-4">
-				  <h2>Heading</h2>
-				  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-				  <p><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+				  <h2>免工本费开卡</h2>
+				  <p>即日在我行任意营业网点办理开卡业务并下载移动App即可免除工本费，首张银行卡可申请免小额账户管理费</p>
+				  <p><a class="btn btn-warning" href="#" role="button">点击了解 &raquo;</a></p>
 			   </div>
 				<div class="col-md-4">
-				  <h2>Heading</h2>
-				  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-				  <p><a class="btn btn-info" href="#" role="button">View details &raquo;</a></p>
+				  <h2>白金卡折上日韩游</h2>
+				  <p>白金卡用户可参与日韩打折团费活动，机会有限送完即止</p><br>
+				  <p><a class="btn btn-info" href="#" role="button">点击了解 &raquo;</a></p>
 				</div>
 				<div class="col-md-11">
 				  <a class="text-right" href="#"><p>更多优惠...</p></a>
@@ -146,19 +155,19 @@
 			  <div >
 				<div class="row">
 					<div class="col-md-4">
-					  <h2>Heading</h2>
-					  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					  <p><a class="btn btn-warning" href="#" role="button">View details &raquo;</a></p>
+					  <h2>贵金属</h2>
+					  <p>金条、个人积存金、黄金回购等你来抢</p><br>
+					  <p><a class="btn btn-warning" href="#" role="button">点击了解 &raquo;</a></p>
 					</div>
 					<div class="col-md-4">
-					  <h2>Heading</h2>
-					  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					  <p><a class="btn btn-info" href="#" role="button">View details &raquo;</a></p>
+					  <h2>外汇</h2>
+					  <p>即期结售、外汇买卖、汇兑服务为你打造</p><br>
+					  <p><a class="btn btn-info" href="#" role="button">点击了解 &raquo;</a></p>
 				   </div>
 					<div class="col-md-4">
-					  <h2>Heading</h2>
-					  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					  <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+					  <h2>基金</h2>
+					  <p>新发、优选、众多产品选择你还在等什么</p><br>
+					  <p><a class="btn btn-success" href="#" role="button">点击了解 &raquo;</a></p>
 					</div>
 					<div class="col-md-11">
 					  <a class="text-right" href="#"><p>更多理财...</p></a>
@@ -207,29 +216,33 @@
 			  </div>
 		</div>
 	</div>
+	
 	<!-- 页尾 -->
 	<div class="page-header">
-		<div class="col-md-4">
-		</div>
 		<div class="col-md-1">
-			<h4>简介</h4>
 		</div>
-		<div class="col-md-1">
-			<h4>帮助</h4>
+		<div class="col-md-2"><br><br>
+			<h4 align="center">关于网站</h4>
 		</div>
-		<div class="col-md-1">
-			<h4>友情链接</h4>
+		<div class="col-md-2"><br><br>
+			<h4 align="center">友情链接</h4>
+		</div>
+		<div class="col-md-2"><br><br>
+			<h4 align="center">联系方式</h4>
 		</div>
 		<div class="col-md-3">
 			<p>app</p>
 		</div>
-		<div class="col-md-1">
+		<div class="col-md-2">
 		<br><br><br><br>
 			<a class="btn btn-lg btn-default" data-toggle="tooltip" data-placement="right" title="返回顶部" href="#" role="button">
 				<span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
 			</a>
 		</div>
 				<br><br><br><br><br><br><br><br><br><br><br><br>
+		<div>
+			<p align="center">Copyright @ 2016 Nomo in China</p>
+		</div>
 	</div>
 	<!-- Bootstrap core JavaScript
     ================================================== -->

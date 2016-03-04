@@ -7,16 +7,21 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <style>
-		img{
-			width:100%;
-		}
-	</style>
-
+    
     <title>个人网银</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	#myCarousel{
+		max-height:650px;
+		overflow:hidden;
+	}
+	a{color:#000;}
+	a:hover{color:gray;}
+	img{width:100%;}
+	.navbar{margin-bottom:0px;}
+	</style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -110,7 +115,12 @@
             </li>
             <li><a href="#contact">安全中心</a></li>
           </ul>
-			<button type="button" class="btn btn-success navbar-right">退出</button>
+			<div id="navbar" class="navbar-collapse collapse">
+			  <form class="navbar-form navbar-right">
+				<button type="submit" class="btn btn-success">退出</button>
+				<div id="sign-false"></div>
+			  </form>
+			</div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
